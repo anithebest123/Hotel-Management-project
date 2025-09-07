@@ -1,16 +1,54 @@
 # Hotel-Management-OOP-Project
 
-This is a Hotel Management tool which can be used to manage
-activites like storing customer details, booking rooms of four different types, ordering food
-for particular rooms, unbooking rooms and showing the bill. It can also be used to see
-different room features and room availibility. It is a menu driven program and it runs until
-the user exits. File handling has been used to store the current status of the
-hotel(customer details, booked rooms, food ordered) in a file once the program exits so
-that when we restart the program, the old details are not lost. The program reads the file
-when it restarts to know the previous status of the hotel. Writing of file has been done in a
-separate thread as it can be done parallely. User defined exception is thrown if the user
-tries to book an already allotted room. Exception handling is properly done to deal with any
-kind of unexpected exception.
-##### Topics Covered-  
-Classes and Objects, Inheritance, File Handling with Objects, ArrayList, implementing
-Interface, User defined exception and Exception handling.
+This is a Hotel Management Tool built using Object-Oriented Programming (OOP) principles in Java.
+It provides a complete menu-driven system to manage various hotel operations, ensuring a smooth and efficient workflow.
+
+The tool supports:
+
+📋 Customer Management – Store and retrieve customer details
+
+🛏️ Room Booking – Book rooms of four different types with availability check
+
+🍽️ Food Ordering – Order food for specific rooms
+
+🚪 Unbooking – Release rooms when customers check out
+
+💵 Billing System – Generate and display detailed bills
+
+🔍 Room Information – View features and availability of different room types
+
+✨ Key Highlights
+
+🖥️ Menu-Driven Program – Runs continuously until the user exits
+
+💾 File Handling with Persistence –
+
+Stores the current hotel status (customer details, room bookings, food orders) into a file at exit
+
+Reads back the saved state when the program restarts, ensuring no data loss
+
+⚡ Multithreading – File writing is handled in a separate thread, allowing parallel execution
+
+🚫 User-Defined Exception – Raised if a user tries to book an already allocated room
+
+🛡️ Robust Exception Handling – Manages unexpected runtime errors gracefully
+
+📚 Topics Covered
+
+This project is an excellent demonstration of Java OOP and advanced concepts:
+
+✅ Classes and Objects
+
+✅ Inheritance
+
+✅ Interfaces
+
+✅ File Handling with Objects
+
+✅ ArrayList for dynamic storage
+
+✅ User-defined Exceptions
+
+✅ Exception Handling
+
+✅ Multithreading (for file writing)
